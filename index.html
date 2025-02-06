@@ -1,1141 +1,338 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
   <head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Portfolio Beni Nurahya</title>
-    <meta content="" name="description" />
-    <meta content="" name="keywords" />
-
-    <!-- vicons -->
-    <link href="assets/img/vicon.png" rel="icon" />
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
-
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com" rel="preconnect" />
-    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?mily=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&mily=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-
-    <!-- Vendor CSS Files -->
-    <link
-      href="assets/vendor/bootstrap/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
-      rel="stylesheet"
-    />
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
-    <link
-      href="assets/vendor/glightbox/css/glightbox.min.css"
-      rel="stylesheet"
-    />
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
-
-    <!-- Main CSS File -->
-    <link href="assets/css/main.css" rel="stylesheet" />
-
-    <!-- =======================================================
-  * Template Name: iPortfolio
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-s-template/
-  * Updated: Jun 29 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profil Sekolah - SMP N 3 Purwadadi</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+      }
+      header {
+        background-color: #4caf50;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      nav {
+        background-color: #333;
+        padding: 10px 0;
+        text-align: center;
+      }
+      nav a {
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-size: 16px;
+        transition: background-color 0.3s;
+      }
+      nav a:hover {
+        background-color: #575757;
+      }
+      section {
+        padding: 20px;
+      }
+      .about,
+      .facilities,
+      .vision-mission,
+      .gallery,
+      .achievements {
+        background-color: white;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      .about h2,
+      .facilities h2,
+      .vision-mission h2,
+      .gallery h2,
+      .achievements h2 {
+        color: #4caf50;
+      }
+      .about p,
+      .facilities p,
+      .vision-mission p,
+      .gallery p,
+      .achievements p {
+        color: #666;
+      }
+      .gallery {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+      }
+      .gallery img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      .gallery div {
+        margin-bottom: 20px;
+      }
+      .achievements ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      .achievements li {
+        margin-bottom: 10px;
+      }
+      .contact {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        margin-top: 40px;
+      }
+      footer {
+        background-color: #4caf50;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 10px;
+      }
+      th {
+        background-color: #4caf50;
+        color: white;
+      }
+      td {
+        text-align: center;
+      }
+    </style>
   </head>
-
-  <body class="index-page">
-    <header id="header" class="header dark-background d-flex flex-column">
-      <i class="header-toggle d-xl-none bi bi-list"></i>
-
-      <div class="profile-img">
-        <img
-          src="assets/img/beni.jpeg"
-          alt=""
-          class="img-fluid rounded-circle"
-        />
-      </div>
-
-      <a
-        href="index.html"
-        class="logo d-flex align-items-center justify-content-center"
-      >
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Beni Nuryahya</h1>
-      </a>
-
-      <div class="social-links text-center">
-        <a href="https://x.com/beni_nry" class="twitter"><i class="bi bi-twitter-x"></i></a>
-        <a href="https://www.facebook.com/beni.canaxprima" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="https://www.instagram.com/beni_nry" class="instagram"><i class="bi bi-instagram"></i></a>
-         <a href="https://wa.me/qr/76PFVP6YIMS4E1" class="instagram"><i class="bi bi-whatsapp"></i></a>       
-      </div>
-
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li>
-            <a href="#hero" class="active"
-              ><i class="bi bi-house navicon"></i>Home</a
-            >
-          </li>
-          <li>
-            <a href="#about"><i class="bi bi-person navicon"></i> About</a>
-          </li>
-          <li>
-            <a href="#resume"
-              ><i class="bi bi-file-earmark-text navicon"></i> Resume</a
-            >
-          </li>
-          <li>
-            <a href="#portfolio"
-              ><i class="bi bi-images navicon"></i> Portfolio</a
-            >
-          </li>
-          <li>
-            <a href="#services"
-              ><i class="bi bi-hdd-stack navicon"></i> Services</a
-            >
-          </li>
-         
-          <li>
-            <a href="#contact"
-              ><i class="bi bi-envelope navicon"></i> Contact</a
-            >
-          </li>
-        </ul>
-      </nav>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>Profil SMP N 3 Purwadadi</h1>
+      <p>Menjadi Sekolah Unggul yang Mempersiapkan Generasi Penerus Bangsa</p>
     </header>
 
-    <main class="main">
-      <!-- Hero Section -->
-      <section id="hero" class="hero section dark-background">
-        <img src="assets/img/bg2.jpeg" alt="" data-aos="fade-in" class="" />
+    <!-- Navigation -->
+    <nav>
+      <a href="#about">Tentang Sekolah</a>
+      <a href="#vision-mission">Visi & Misi</a>
+      <a href="#facilities">Fasilitas</a>
+      <a href="#gallery">Galeri</a>
+      <a href="#achievements">Prestasi</a>
+      <a href="#contact">Kontak</a>
+    </nav>
 
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-          <h2>Beni Nuryahya</h2>
-          <p>
-            I'm
-            <span
-              class="typed"
-              data-typed-items="Designer, Programmer, Freelancer Website, Administrator"
-              >Designer</span
-            ><span
-              class="typed-cursor typed-cursor--blink"
-              aria-hidden="true"
-            ></span
-            ><span
-              class="typed-cursor typed-cursor--blink"
-              aria-hidden="true"
-            ></span>
-          </p>
+    <!-- About Section -->
+    <section id="about" class="about">
+      <h2>Tentang SMP N 3 Purwadadi</h2>
+      <p>
+        SMP Negeri 3 Purwadadi adalah sekolah menengah pertama yang terletak di
+        Purwadadi, Kabupaten Subang, Jawa Barat. Didirikan dengan tujuan untuk
+        menciptakan siswa-siswa yang berkompeten dalam berbagai bidang akademik
+        dan non-akademik. Dengan fasilitas lengkap dan tenaga pendidik yang
+        profesional, SMP N 3 Purwadadi berkomitmen untuk memberikan pendidikan
+        yang berkualitas kepada generasi penerus bangsa.
+      </p>
+      <p>
+        Kami memiliki kurikulum yang sesuai dengan perkembangan zaman, dengan
+        mengutamakan pembentukan karakter dan keterampilan siswa untuk siap
+        menghadapi tantangan masa depan.
+      </p>
+    </section>
+
+    <!-- Vision & Mission Section -->
+    <section id="vision-mission" class="vision-mission">
+      <h2>Visi & Misi</h2>
+      <h3>Visi</h3>
+      <p>
+        Terwujudnya pelajar pancasila yang beretika, berwawasan global dan
+        terampil berdasarkan imtak dan berwawasan lingkunngan
+      </p>
+      <h3>Misi</h3>
+      <ul>
+        <li>
+          Menanamkan keimanan dan ke taqwaan melaui pengamalan ajaran agama
+        </li>
+        <li>Menumbuhkan sikap santun</li>
+        <li>Menumbuhkan rasa kesetiakawanan Sosial sesama teman</li>
+        <li>Mengoptimalkan proses Pembelajaran dan bimmbingan Konseling</li>
+        <li>
+          Menciptakan dan Menumbuhkan kedisiplinan dalam belajar dengan penuh
+          tanggung jawab
+        </li>
+        <li>Menciptakan suasana belajar yang menyenangkan</li>
+        <li>
+          Menjalin Kerja sama yang Harmonis antar warga sekolah, dan lembaga
+          yang terkait
+        </li>
+      </ul>
+    </section>
+
+    <!-- Facilities Section -->
+    <section id="facilities" class="facilities">
+      <h2>Fasilitas Sekolah</h2>
+      <p>
+        SMP N 3 Purwadadi memiliki fasilitas yang memadai untuk mendukung
+        kegiatan belajar mengajar serta kegiatan ekstrakurikuler, antara lain:
+      </p>
+      <ul>
+        <li>Ruang Kelas yang nyaman dan dilengkapi dengan proyektor.</li>
+        <li>Laboratorium IPA dan komputer yang lengkap.</li>
+        <li>Perpustakaan dengan koleksi buku yang bervariasi.</li>
+        <li>Lapangan olahraga yang luas, termasuk lapangan futsal dan voli.</li>
+        <li>Ruang Seni dan Kesenian untuk kegiatan ekstrakurikuler.</li>
+        <li>Area parkir yang luas dan aman.</li>
+        <li>Ruang BK Untuk Memfasilitasi Siswa/i Melakukan Konseling.</li>
+      </ul>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+      <h2>Galeri Sekolah</h2>
+      <p>
+        Berikut adalah beberapa foto yang menggambarkan kegiatan dan suasana di
+        SMP N 3 Purwadadi:
+      </p>
+      <div id="gallery-images">
+        <div>
+          <img src="products/bb.jpeg" alt="Kegiatan Belajar Mengajar" />
+          <p>Kegiatan Belajar Mengajar di kelas yang penuh semangat.</p>
         </div>
-      </section>
-      <!-- /Hero Section -->
-
-      <!-- About Section -->
-      <section id="about" class="about section">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>About</h2>
-          <!-- <p>
-            "Saya merupakan lulusan baru Diploma III Teknologi Informasi Dan
-            Komputer. Saya memiliki pemahaman dasar yang kuat tentang peran
-            seorang Web Development, Staff Administrasi (Ms.Office) dan Desainer
-            ui/ux web. Dengan kombinasi keterampilan dan pengetahuan ini, saya
-            siap untuk berperan dalam berbagai aspek yang berkaitan dengan
-            teknologi informasi.".
-          </p> -->
+        <div>
+          <img src="products/bc.jpeg" alt="Kegiatan Ekstrakurikuler" />
+          <p>Siswa sedang berlatih dalam kegiatan ekstrakurikuler.</p>
         </div>
-        <!-- End Section Title -->
-
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-          <div class="row gy-4 justify-content-center">
-            <div class="col-lg-4">
-              <img src="assets/img/beni.jpeg" class="img-fluid" alt="" />
-            </div>
-            <div class="col-lg-8 content">
-              <h2>Beni Nuryahya</h2>
-
-              <div class="row">
-                <div class="col-lg-6">
-                  <ul>
-                    <li>
-                      <i class="bi bi-chevron-right"></i>
-                      <strong> Alamat:</strong>
-                      <span
-                        >Dusun Kalipace RT 037 RW 012 Desa Parapatan Kecamatan
-                        Purwadaddi</span
-                      >
-                    </li>
-                    <li>
-                      <i class="bi bi-chevron-right"></i>
-                      <strong> Nomor Telepon:</strong> <span>0895606179505</span>
-                    </li>
-                    <li>
-                      <i class="bi bi-chevron-right"></i>
-                      <strong> Tanggal Lahir:</strong>
-                      <span> 22 Oktober 2001</span>
-                    </li>
-                    <li>
-                      <i class="bi bi-chevron-right"></i>
-                      <strong>Gelar:</strong> <span>Ahli Madiyah Komputer</span>
-                    </li>
-                  </ul>
-                </div>
-                <div class="col-lg-6">
-                  <ul>
-                    <li>
-                      <i class="bi bi-chevron-right"></i> <strong> Umur:</strong>
-                      <span>23</span>
-                    </li>
-                    <li>
-                      <i class="bi bi-chevron-right"></i>
-                      <strong> Tingkat:</strong> <span>Junior Developer</span>
-                    </li>
-                    <li>
-                      <i class="bi bi-chevron-right"></i>
-                      <strong>Email:</strong>
-                      <span>beninuryahya3@gmai.com</span>
-                    </li>
-                    <li>
-                      <i class="bi bi-chevron-right"></i>
-                      <strong> Freelance:</strong> <span>Tersedia</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <!-- <p class="py-3">
-               
-              </p> -->
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- /About Section -->
-
-      <!-- Stats Section -->
-      <section id="stats" class="stats section">
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-          <div class="row gy-4">
-            <div class="col-lg-3 col-md-6">
-              <div class="stats-item">
-                <i class="bi bi-emoji-smile"></i>
-                <span
-                  data-purecounter-start="0"
-                  data-purecounter-end="232"
-                  data-purecounter-duration="1"
-                  class="purecounter"
-                ></span>
-                <p>
-                  <strong>Happy Clients</strong> <span>consequuntur quae</span>
-                </p>
-              </div>
-            </div>
-            <!-- End Stats Item -->
-
-            <div class="col-lg-3 col-md-6">
-              <div class="stats-item">
-                <i class="bi bi-journal-richtext"></i>
-                <span
-                  data-purecounter-start="0"
-                  data-purecounter-end="5"
-                  data-purecounter-duration="1"
-                  class="purecounter"
-                ></span>
-                <p>
-                  <strong>Projects</strong>
-                  <span>adipisci atque cum quia aut</span>
-                </p>
-              </div>
-            </div>
-            <!-- End Stats Item -->
-
-            <div class="col-lg-3 col-md-6">
-              <div class="stats-item">
-                <i class="bi bi-headset"></i>
-                <span
-                  data-purecounter-start="0"
-                  data-purecounter-end="10"
-                  data-purecounter-duration="1"
-                  class="purecounter"
-                ></span>
-                <p>
-                  <strong>Hours Of Support</strong>
-                  <span>aut commodi quaerat</span>
-                </p>
-              </div>
-            </div>
-            <!-- End Stats Item -->
-
-            <div class="col-lg-3 col-md-6">
-              <div class="stats-item">
-                <i class="bi bi-people"></i>
-                <span
-                  data-purecounter-start="0"
-                  data-purecounter-end="32"
-                  data-purecounter-duration="1"
-                  class="purecounter"
-                ></span>
-                <p>
-                  <strong>Hard Workers</strong>
-                  <span>rerum asperiores dolor</span>
-                </p>
-              </div>
-            </div>
-            <!-- End Stats Item -->
-          </div>
-        </div>
-      </section>
-      <!-- /Stats Section -->
-
-      <!-- Skills Section -->
-      <section id="skills" class="skills section light-background">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="de-up">
-          <h2>Skills</h2>
-          <!-- <p></p> -->
-        </div>
-        <!-- End Section Title -->
-
-        <div class="container" data-aos="de-up" data-aos-delay="100">
-          <div class="row skills-content skills-animation">
-            <div class="col-lg-6">
-              <div class="progress">
-                <span class="skill"
-                  ><span>HTML</span> <i class="val">100%</i></span
-                >
-                <div class="progress-bar-wrap">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="100"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
-              <!-- End Skills Item -->
-
-              <div class="progress">
-                <span class="skill"
-                  ><span>CSS</span> <i class="val">90%</i></span
-                >
-                <div class="progress-bar-wrap">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="90"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
-              <!-- End Skills Item -->
-
-              <div class="progress">
-                <span class="skill"
-                  ><span>Laravel</span> <i class="val">75%</i></span
-                >
-                <div class="progress-bar-wrap">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="75"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
-              <!-- End Skills Item -->
-            </div>
-
-            <div class="col-lg-6">
-              <div class="progress">
-                <span class="skill"
-                  ><span>Basis Data Mysql</span> <i class="val">80%</i></span
-                >
-                <div class="progress-bar-wrap">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="80"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
-              <!-- End Skills Item -->
-
-              <div class="progress">
-                <span class="skill"
-                  ><span>Ms.Office</span> <i class="val">90%</i></span
-                >
-                <div class="progress-bar-wrap">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="90"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
-              <!-- End Skills Item -->
-
-              <div class="progress">
-                <span class="skill"
-                  ><span>Syistem Analyst</span> <i class="val">55%</i></span
-                >
-                <div class="progress-bar-wrap">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="55"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
-              <!-- End Skills Item -->
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- /Skills Section -->
-
-      <!-- Resume Section -->
-      <section id="resume" class="resume section">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="de-up">
-          <h2>Resume</h2>
-          <p>
-            "Saya merupakan lulusan baru Diploma III Teknologi Informasi Dan
-            Komputer. Saya memiliki pemahaman dasar yang kuat tentang peran
-            seorang Web Development, Staff Administrasi (Ms.Office) dan Desainer
-            ui/ux web. Dengan kombinasi keterampilan dan pengetahuan ini, saya
-            siap untuk berperan dalam berbagai aspek yang berkaitan dengan
-            teknologi informasi."
-          </p>
-        </div>
-        <!-- End Section Title -->
-
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6" data-aos="de-up" data-aos-delay="100">
-              <h3 class="resume-title">Kontak</h3>
-
-              <!-- <div class="resume-item pb-0">
-                <h4>k</h4>
-                <p>
-                  <em
-                    >Innovative and deadline-driven Graphic Designer with 3+
-                    years of experience designing and developing user-centered
-                    digital/print marketing material from initial concept to
-                    final, polished deliverable.</em
-                  >
-                </p> -->
-                <ul>
-                  <li>
-                    Dusun Kalipace RT 037 RW 012 Desa Parpatan Kecamatan
-                    Purwadadi Kabupaten Subang
-                  </li>
-                  <li>0895606179505</li>
-                  <li>beninuryhya3@gmail.com</li>
-                </ul>
-              </div>
-              <!-- Edn Resume Item -->
-
-              <h3 class="resume-title">Pendidikan</h3>
-              <div class="resume-item">
-                <h4>Politeknik Negeri Subang</h4>
-                <h5>2020 - 2023</h5>
-                <p><em>Sistem Informasi</em></p>
-                <!-- <p>
-                  Qui deserunt veniam. Et sed aliquam labore tempore sed
-                  quisquam iusto autem sit. Ea vero voluptatum qui ut
-                  dignissimos deleniti nerada porti sand markend
-                </p> -->
-              </div>
-              <!-- Edn Resume Item -->
-
-              <div class="resume-item">
-                <h4>Man 1 Subang</h4>
-                <h5>2018 - 2020</h5>
-                <p><em>Ilmu Pengetahuan Sosial</em></p>
-                <!-- <p>
-                  Quia nobis sequi est occaecati aut. Repudiandae et iusto quae
-                  reiciendis et quis Eius vel ratione eius unde vitae rerum
-                  voluptates asperiores voluptatem Earum molestiae consequatur
-                  neque etlon sader mart dila
-                </p> -->
-              </div>
-              <!-- Edn Resume Item -->
-            </div>
-
-            <div class="col-lg-6" data-aos="de-up" data-aos-delay="200">
-              <h3 class="resume-title">Pengalaman</h3>
-              <div class="resume-item">
-                <h4>Web Developer</h4>
-                <h5>2023 - Present</h5>
-                <p><em>Politeknik Negeri Subang </em></p>
-                <ul>
-                  <li>
-                    Mengerjakan Proyek Akhir menjadi Full Stack Developer yang
-                    dimana menggunakan framework Laravel 8 pada masa kuliah
-                    tugas ahir yaitu dengn membuat sistem informasi penjualan
-                    hasil pertanian di Kecamatan Pagaden menggunakan Payment
-                    Gateway Midtrans
-                  </li>
-                  <li>
-                    Mengerjakan Tugas Projek 2 Membuat Website Sistem Informasi
-                    Perawatan Laboratorium Politeknik Negeri Subang
-                  </li>
-                </ul>
-              </div>
-              <!-- Edn Resume Item -->
-
-              <div class="resume-item">
-                <h4>IT Support & Data Operator</h4>
-                <h5>2022 - 2023</h5>
-                <p><em>Badan Pusat Statistik Subang</em></p>
-                <ul>
-                  <li>
-                    Membuat Kabel Lan Dan Memperbaiki Jaringan Saat magang di
-                    Badan Pusat Statistik Subang
-                  </li>
-                  <li>
-                    Menghubungkan Jaringan dari satu server ke 70 pc yang lainya
-                    saat pelaksanaan regsosek atau pelaksanan data entry di
-                    badan pusat statistik subang
-                  </li>
-                  <li>
-                    Melakukan pengolahan data petugas data entry perkecamatan
-                    dan melakukan proses recruitment petugas mitra data entry di
-                    website badan pusat Statistik Subang
-                  </li>
-                </ul>
-              </div>
-              <!-- Edn Resume Item -->
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- /Resume Section -->
-
-      <!-- Portfolio Section -->
-      <section id="portfolio" class="portfolio section light-background">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="de-up">
-          <h2>Portfolio</h2>
-          <p>
-           Berikut adalah Hasil Product Yang Saya Buat atau Saya Kerjakan.!
-          </p>
-        </div>
-        <!-- End Section Title -->
-
-        <div class="container">
-          <div
-            class="isotope-layout"
-            data-deult-filter="*"
-            data-layout="masonry"
-            data-sort="original-order"
-          >
-            <ul
-              class="portfolio-filters isotope-filters"
-              data-aos="de-up"
-              data-aos-delay="100"
-            >
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-product">Product</li>
-              <li data-filter=".filter-branding">Branding</li>
-              <li data-filter=".filter-books">Books</li>
-            </ul>
-            <!-- End Portfolio Filters -->
-
-            <div
-              class="row gy-4 isotope-container"
-              data-aos="de-up"
-              data-aos-delay="200"
-            >
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
-              >
-                <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/portfolio/labkom1.jpeg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>Login Labkom Polsub</h4>
-                    <p>Halaman Login Perawatan dan Peinjaman Komputer Labkom Polsub</p>
-                    <a
-                      href="assets/img/portfolio/labkom1.jpeg"
-                      title="Product 1"
-                      data-gallery="portfolio-gallery-app"
-                      class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
-                    ></a>
-                    <a
-                      href="portfolio-details.html"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"
-              >
-                <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/portfolio/labkom2.jpeg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>Halaman Daftar Alat & Ruangan Komputer</h4>
-                    <p>Halaman Daftar Alat Dan ruangan Komputer Politeknik Negeri Subang</p>
-                    <a
-                      href="assets/img/portfolio/labkom2.jpeg"
-                      title="Product 1"
-                      data-gallery="portfolio-gallery-product"
-                      class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
-                    ></a>
-                    <a
-                      href="portfolio-details.html"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"
-              >
-                <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/portfolio/labkom3.jpeg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>Halaman Peminjaman Ruangan Komputer 1</h4>
-                    <p>Halaman Pengembalian Peminjaman Ruangan Komputer Mahasiswa Polieknik Negeri Subang</p>
-                    <a
-                      href="assets/img/portfolio/labkom3.jpeg"
-                      title="Product 1"
-                      data-gallery="portfolio-gallery-branding"
-                      class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
-                    ></a>
-                    <a
-                      href="portfolio-details.html"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books"
-              >
-                <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/portfolio/labkom4.jpeg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>Halaman Pengembalian Peminjaman Ruangan Komputer</h4>
-                    <p>Halaman Pengembalian Peminjaman Ruangan Komputer Mahasiswa Polieknik Negeri Subang</p>
-                    <a
-                      href="assets/img/portfolio/labkom4.jpeg"
-                      title="Product 1"
-                      data-gallery="portfolio-gallery-book"
-                      class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
-                    ></a>
-                    <a
-                      href="portfolio-details.html"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
-              >
-                <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/portfolio/admin.jpeg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>Halaman Admin Dari Website Hasil Pertanian</h4>
-                    <p>Halaman Dashboard admin</p>
-                    <a
-                      href="assets/img/portfolio/admin.jpeg"
-                      title="Product 2"
-                      data-gallery="portfolio-gallery-app"
-                      class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
-                    ></a>
-                    <a
-                      href="portfolio-details.html"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"
-              >
-                <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/portfolio/home.jpeg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>Landing Page Penjualan Hasil Pertanian</h4>
-                    <p>halaman Landig Page  Home Sistem Informasi Penjualan Hasil Pertanian</p>
-                    <a
-                      href="assets/img/portfolio/home.jpeg"
-                      title="Product 2"
-                      data-gallery="portfolio-gallery-product"
-                      class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
-                    ></a>
-                    <a
-                      href="portfolio-details.html"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"
-              >
-                <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/portfolio/checkout.jpeg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>Halaman checkout Pelanggan</h4>
-                    <p>Halaman checkout Pelanggan Saat Mau Melakukan Pemesanan</p>
-                    <a
-                      href="assets/img/portfolio/checkout.jpeg"
-                      title="Product 2"
-                      data-gallery="portfolio-gallery-branding"
-                      class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
-                    ></a>
-                    <a
-                      href="portfolio-details.html"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-                <!-- End Portfolio Item -->
-
-              <div
-              class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"
-            >
-              <div class="portfolio-content h-100">
-                <img
-                  src="assets/img/portfolio/cetak2.jpeg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>Halaman Landing Page Dari Website Percetakan Komara</h4>
-                  <p>Tampilan Awal Landng Page Jasa Percetakan</p>
-                  <a
-                    href="assets/img/portfolio/cetak2.jpeg"
-                    title="Product 3"
-                    data-gallery="portfolio-gallery-branding"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-zoom-in"></i
-                  ></a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                    ><i class="bi bi-link-45deg"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-            <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books"
-              >
-                <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/portfolio/login.jpeg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>Halaman Login</h4>
-                    <p>Halaman Login Percetakan design Komar</p>
-                    <a
-                      href="assets/img/portfolio/login.jpeg"
-                      title="Product 3"
-                      data-gallery="portfolio-gallery-book"
-                      class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
-                    ></a>
-                    <a
-                      href="portfolio-details.html"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-            <!-- End Portfolio Container -->
-               <!-- End Portfolio Item -->
-
-               <div
-               class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"
-             >
-               <div class="portfolio-content h-100">
-                 <img
-                   src="assets/img/portfolio/cetak1.jpeg"
-                   class="img-fluid"
-                   alt=""
-                 />
-                 <div class="portfolio-info">
-                   <h4>Haalaman Product </h4>
-                   <p>Halaman Product Pelaggan Percetakan/p>
-                   <a
-                     href="assets/img/portfolio/cetak1.jpeg"
-                     title="Product 3"
-                     data-gallery="portfolio-gallery-branding"
-                     class="glightbox preview-link"
-                     ><i class="bi bi-zoom-in"></i
-                   ></a>
-                   <a
-                     href="portfolio-details.html"
-                     title="More Details"
-                     class="details-link"
-                     ><i class="bi bi-link-45deg"></i
-                   ></a>
-                 </div>
-               </div>
-             </div>
-          </div>
-        </div>
-      </section>
-      <!-- /Portfolio Section -->
-
-      <!-- Services Section -->
-      <section id="services" class="services section">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="de-up">
-          <h2>Projek</h2>
-          <p>
-           Berikut adalah Penjelasan singkat dari website yang telah saya kerjakan.!
-          </p>
-        </div>
-        <!-- End Section Title -->
-      
-        <div class="container">
-          <div class="row gy-4">
-            <div
-              class="col-lg-4 col-md-6 service-item d-flex"
-              data-aos="de-up"
-              data-aos-delay="100"
-            >
-              <div class="icon flex-shrink-0">
-                <i class="bi bi-briefcase"></i>
-              </div>
-              <div>
-                <h4 class="title">
-                  <a href="service-details.html" class="stretched-link"
-                    >Sistem Informasi Penjualan Hasil Pertanian di Kecamatan Pagaden Menggunakan Payment Gateway</a
-                  >
-                </h4>
-                <p class="description">
-                  Sistem ini dirancang untuk mempermudah penjualan hasil pertanian di Desa Pagaden dengan melibatkan empat aktor utama: admin, penjual, pelanggan, dan kurir. Sistem ini membantu petani memasarkan produk mereka, mengetahui harga pasar, serta mempromosikan hasil pertanian ke pasar yang lebih luas. Fitur **payment gateway** memungkinkan transaksi pembayaran yang mudah dan aman.
-                </p>
-              </div>
-            </div>
-            <!-- End Service Item -->
-      
-            <div
-              class="col-lg-4 col-md-6 service-item d-flex"
-              data-aos="de-up"
-              data-aos-delay="200"
-            >
-              <div class="icon flex-shrink-0">
-                <i class="bi bi-card-checklist"></i>
-              </div>
-              <div>
-                <h4 class="title">
-                  <a href="service-details.html" class="stretched-link"
-                    >Sistem Informasi Perawatan Laboratorium Politeknik Negeri Subang</a
-                  >
-                </h4>
-                <p class="description">
-                  Sistem ini memudahkan mahasiswa dalam meminjam komputer untuk praktikum dan tugas. Selain itu, kepala laboratorium dan admin dapat memonitor dan merawat perangkat komputer di laboratorium. Sistem ini bertujuan untuk meningkatkan efisiensi dalam pengelolaan peminjaman dan perawatan komputer.
-                </p>
-              </div>
-            </div>
-            <!-- End Service Item -->
-      
-            <div
-              class="col-lg-4 col-md-6 service-item d-flex"
-              data-aos="de-up"
-              data-aos-delay="300"
-            >
-              <div class="icon flex-shrink-0">
-                <i class="bi bi-bar-chart"></i>
-              </div>
-              <div>
-                <h4 class="title">
-                  <a href="service-details.html" class="stretched-link"
-                    >Sistem Informasi Pengaduan Masyarakat RT 36-RT 37 Dusun Kalipace</a
-                  >
-                </h4>
-                <p class="description">
-                  Sistem ini mempermudah masyarakat Dusun Kalipace untuk menyampaikan pengaduan atau aspirasi terkait kegiatan atau perbaikan yang diperlukan di dusun. Fitur **jadwal kegiatan** dan **story kegiatan** memungkinkan warga mengetahui informasi kegiatan yang akan datang dan melihat laporan kegiatan yang telah dilaksanakan.
-                </p>
-              </div>
-            </div>
-            <!-- End Service Item -->
-          </div>
-        </div>
-      </section>
-      
-      <!-- /Services Section -->
-
-      <!-- Testimonials Section -->
-                  <!-- End testimonial item -->
-
-              <!-- End testimonial item -->
-            </div>
-            <div class="swiper-pagination"></div>
-          </div>
-        </div>
-      </section>
-      <!-- /Testimonials Section -->
-
-      <!-- Contact Section -->
-      <section id="contact" class="contact section">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="de-up">
-          <h2>Contact</h2>
-          <p>
-            Informasi Pribadi Mengenai Saya
-          </p>
-        </div>
-        <!-- End Section Title -->
-
-        <div class="container" data-aos="de-up" data-aos-delay="100">
-          <div class="row gy-4">
-            <div class="col-lg-5">
-              <div class="info-wrap">
-                <div
-                  class="info-item d-flex"
-                  data-aos="de-up"
-                  data-aos-delay="200"
-                >
-                  <i class="bi bi-geo-alt flex-shrink-0"></i>
-                  <div>
-                    <h3>Address</h3>
-                    <p>Jalan Raya Parapatan Dusun Kalipace RT037 RW 012 Desa Parapatan Kecamatan Purwadaddi</p>
-                  </div>
-                </div>
-                <!-- End Info Item -->
-
-                <div
-                  class="info-item d-flex"
-                  data-aos="de-up"
-                  data-aos-delay="300"
-                >
-                  <i class="bi bi-telephone flex-shrink-0"></i>
-                  <div>
-                    <h3>WhatsApp Me</h3>
-                    <p>0895606179505</p>
-                  </div>
-                </div>
-                <!-- End Info Item -->
-
-                <div
-                  class="info-item d-flex"
-                  data-aos="de-up"
-                  data-aos-delay="400"
-                >
-                  <i class="bi bi-envelope flex-shrink-0"></i>
-                  <div>
-                    <h3>Email Us</h3>
-                    <p>beninuryahya3@gmail.com</p>
-                  </div>
-                </div>
-                <!-- End Info Item -->
-
-                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3964.54655564484!2d107.71218207499236!3d-6.452207993539231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMjcnMDguMCJTIDEwN8KwNDInNTMuMSJF!5e0!3m2!1sen!2sid!4v1733914728436!5m2!1sen!2sid" width="100%" height="270px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-              </div>
-            </div>
-
-            <div class="col-lg-7">
-              <form
-                action="forms/contact.php"
-                method="post"
-                class="php-email-form"
-                data-aos="de-up"
-                data-aos-delay="200"
-              >
-                <div class="row gy-4">
-                  <div class="col-md-6">
-                    <label for="name-field" class="pb-2">Your Name</label>
-                    <input
-                      type="text"
-                      name="name"
-                      id="name-field"
-                      class="form-control"
-                      required=""
-                    />
-                  </div>
-
-                  <div class="col-md-6">
-                    <label for="email-field" class="pb-2">Your Email</label>
-                    <input
-                      type="email"
-                      class="form-control"
-                      name="email"
-                      id="email-field"
-                      required=""
-                    />
-                  </div>
-
-                  <div class="col-md-12">
-                    <label for="subject-field" class="pb-2">Subject</label>
-                    <input
-                      type="text"
-                      class="form-control"
-                      name="subject"
-                      id="subject-field"
-                      required=""
-                    />
-                  </div>
-
-                  <div class="col-md-12">
-                    <label for="message-field" class="pb-2">Message</label>
-                    <textarea
-                      class="form-control"
-                      name="message"
-                      rows="10"
-                      id="message-field"
-                      required=""
-                    ></textarea>
-                  </div>
-
-                  <div class="col-md-12 text-center">
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">
-                      Your message has been sent. Thank you!
-                    </div>
-
-                    <button type="submit">Send Message</button>
-                  </div>
-                </div>
-              </form>
-            </div>
-            <!-- End Contact Form -->
-          </div>
-        </div>
-      </section>
-      <!-- /Contact Section -->
-    </main>
-
-    <footer id="footer" class="footer position-relative light-background">
-      <div class="container">
-        <div class="copyright text-center">
-          <p>
-            © <span>Copyright</span>
-            <strong class="px-1 sitename">Beni Nuryahya</strong>
-            <span>2024-2025</span>
-          </p>
-        </div>
-<!--         <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you've purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-          Designed by
-          <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by
-          <a href="https://themewagon.com">ThemeWagon</a>
-        </div> -->
       </div>
+      <button onclick="prevImage()">Previous</button>
+      <button onclick="nextImage()">Next</button>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+      <h2>Prestasi Siswa dan Siswi</h2>
+      <p>
+        SMP N 3 Purwadadi bangga dengan berbagai prestasi yang telah diraih oleh
+        siswa dan siswi kami dalam berbagai bidang, baik akademik maupun
+        non-akademik. Berikut adalah beberapa prestasi yang telah kami raih:
+      </p>
+      <ul>
+        <li>Juara 1 Lomba Matematika tingkat Kabupaten Subang (2024)</li>
+        <li>Juara 2 Lomba Futsal antar SMP Se-Jawa Barat (2023)</li>
+        <li>
+          Juara Harapan 1 Lomba Pidato Bahasa Indonesia tingkat Provinsi Jawa
+          Barat (2024)
+        </li>
+        <li>
+          Juara 1 Lomba Seni Tari Tradisional tingkat Kabupaten Subang (2023)
+        </li>
+        <li>
+          Medali Perak dalam Olimpiade Sains Nasional (OSN) bidang Fisika (2024)
+        </li>
+        <li>
+          Juara 3 Lomba Debat Bahasa Inggris tingkat SMA/SMK Se-Subang (2023)
+        </li>
+      </ul>
+    </section>
+
+    <!-- Teacher Data Section -->
+    <section id="teachers" class="teachers">
+      <h2>Data Guru</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Nama Guru</th>
+            <th>Mata Pelajaran</th>
+            <th>Jabatan</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>-</td>
+            <td>Matematika</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>-</td>
+            <td>Bahasa Indonesia</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>-</td>
+            <td>IPA</td>
+            <td>Guru</td>
+          </tr>
+          <tr>
+            <td>-</td>
+            <td>Bahasa Inggris</td>
+            <td>Guru</td>
+          </tr>
+          <tr>
+            <td>-</td>
+            <td>Olahraga</td>
+            <td>Guru</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <h2>Kontak Kami</h2>
+      <p>
+        Jika Anda ingin mendapatkan informasi lebih lanjut atau memiliki
+        pertanyaan, jangan ragu untuk menghubungi kami:
+      </p>
+      <p>
+        <strong>Alamat:</strong> Jl. Raya Parapatan, Purwadadi, Subang, Jawa
+        Barat<br />
+        <strong>Telepon:</strong>
+        <a href="https://wa.me/qr/OGF6KJ2ASSPJN1" target="_blank"
+          >083817090173 (WhatsApp)</a
+        ><br />
+        <strong>Email:</strong> smpn3purwadadi@gmail.com
+      </p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 SMP N 3 Purwadadi. All Rights Reserved.</p>
     </footer>
 
-    <!-- Scroll Top -->
-    <a
-      href="#"
-      id="scroll-top"
-      class="scroll-top d-flex align-items-center justify-content-center"
-      ><i class="bi bi-arrow-up-short"></i
-    ></a>
+    <!-- JavaScript for Image Slideshow -->
+    <script>
+      let currentImageIndex = 0;
+      const images = document.querySelectorAll("#gallery-images div");
 
-    <!-- Preloader -->
-    <div id="preloader"></div>
+      function showImage(index) {
+        images.forEach((image, i) => {
+          image.style.display = i === index ? "block" : "none";
+        });
+      }
 
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/typed.js/typed.umd.js"></script>
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+      function nextImage() {
+        currentImageIndex = (currentImageIndex + 1) % images.length;
+        showImage(currentImageIndex);
+      }
 
-    <!-- Main JS File -->
-    <script src="assets/js/main.js"></script>
+      function prevImage() {
+        currentImageIndex =
+          (currentImageIndex - 1 + images.length) % images.length;
+        showImage(currentImageIndex);
+      }
+
+      // Initialize the first image
+      showImage(currentImageIndex);
+    </script>
   </body>
 </html>
